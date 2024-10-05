@@ -1,0 +1,7 @@
+- work on the hover effect of thumbnails ✔
+- work on the light box functionality ✔
+  - work on html structure ✔
+  - css styles ✔
+  - logic ✔
+- work on mobile responsivness
+- work on chaning product pictures functionality on mobile devices
