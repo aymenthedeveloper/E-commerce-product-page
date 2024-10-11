@@ -82,9 +82,6 @@ header .cart {
   display: flex;
   justify-content: center;
 }
-header .cart .cart-icon{
-  position: relative;
-}
 header .cart .cartItems {
   display: none;
 }
@@ -92,7 +89,7 @@ header .cart .cartItems.show{
   display: block;
   background-color: #fff;
   position: absolute;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   top: 50px;
   right: -170px;
   width: 360px;
@@ -522,9 +519,12 @@ main .btns .addToCart:is(:hover, :focus){
   header{
     column-gap: 16px;
   }
+  header .cart{
+    position: revert;
+  }
   header .cart .cartItems.show{
-    top: 56px;
-    right: -55px;
+    top: 76px;
+    right: 2.5vw;
   }
   main{
     padding: 0;
