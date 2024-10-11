@@ -82,6 +82,9 @@ header .cart {
   display: flex;
   justify-content: center;
 }
+header .cart .cart-icon{
+  position: relative;
+}
 header .cart .cartItems {
   display: none;
 }
