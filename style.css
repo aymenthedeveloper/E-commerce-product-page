@@ -393,11 +393,11 @@ main .btns .addToCart:is(:hover, :focus){
 
 /* -------------------------------------- media queries -------------------------------------- */
 
-/* @media (min-width: 1440px) {
+@media (min-width: 1440px) {
   .wrapper{
     margin: 0 auto;
   }
-} */
+}
 
 @media (max-width: 1250px) {
   :root{
@@ -459,6 +459,7 @@ main .btns .addToCart:is(:hover, :focus){
   header nav{
     padding: 23px 1.5rem;
     position: fixed ;
+    z-index: 10;
     background-color: #fff;
     outline: 1px solid;
     top: 0;
